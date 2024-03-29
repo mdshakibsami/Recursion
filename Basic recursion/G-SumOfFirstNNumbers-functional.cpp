@@ -5,8 +5,7 @@ int SUM(int i)
 {
     if(i==0) return 0;
     return i+SUM(i-1);//sum statement will excute one after another after base case execution
-
-
+    
 }
 int main()
 {

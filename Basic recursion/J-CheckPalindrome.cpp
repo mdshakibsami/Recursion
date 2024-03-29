@@ -7,6 +7,8 @@ string palindrome(int i, string &s)
     if (s[i] != s[s.size() - i - 1])
         return "NO,this is not palindrome";
     return palindrome(i + 1, s);
+    //when a function has return type, all statement must be return type i think
+
 }
 int main()
 {
